@@ -1,0 +1,17 @@
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.AssemblyReference.cache
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmDMHangHoa.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmMain.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmPhanLoai.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CoreCompileInputs.cache
+D:\DuAn\QuanLyBanHang\bin\Debug\Quanlybanhang.mdf
+D:\DuAn\QuanLyBanHang\bin\Debug\Quanlybanhang_log.ldf
+D:\DuAn\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+D:\DuAn\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\DuAn\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+D:\DuAn\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmDMKhachHang.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmDMNhanVien.resources
+D:\DuAn\QuanLyBanHang\obj\Debug\WindowsFormsApp_QuanLyBanHang.frmHoaDonBan.resources
