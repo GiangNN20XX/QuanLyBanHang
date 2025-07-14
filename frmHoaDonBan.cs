@@ -107,7 +107,9 @@ namespace WindowsFormsApp_QuanLyBanHang
         private void ThietLapLaiGiaTri()
         {
             txtMaHoaDon.Text = "";
-            dtpNgayBan.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            dtpNgayBan.Value = DateTime.Now;
+            dtpNgayBan.Format = DateTimePickerFormat.Custom;
+            dtpNgayBan.CustomFormat = "dd/MM/yyyy";
             cboMaNhanVien.Text = "";
             cboMaKhach.Text = "";
             txtTongTien.Text = "0";
