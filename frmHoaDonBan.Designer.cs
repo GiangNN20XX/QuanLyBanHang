@@ -36,6 +36,7 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cboMaKhach = new System.Windows.Forms.ComboBox();
             this.mtbDienThoai = new System.Windows.Forms.MaskedTextBox();
             this.cboMaNhanVien = new System.Windows.Forms.ComboBox();
             this.dtpNgayBan = new System.Windows.Forms.DateTimePicker();
@@ -74,11 +75,9 @@
             this.label12 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnDong = new System.Windows.Forms.Button();
-            this.btnIn = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.cboMaKhach = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -195,6 +194,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chung";
+            // 
+            // cboMaKhach
+            // 
+            this.cboMaKhach.FormattingEnabled = true;
+            this.cboMaKhach.Location = new System.Drawing.Point(639, 39);
+            this.cboMaKhach.Name = "cboMaKhach";
+            this.cboMaKhach.Size = new System.Drawing.Size(218, 28);
+            this.cboMaKhach.TabIndex = 13;
+            this.cboMaKhach.SelectedIndexChanged += new System.EventHandler(this.cboMaKhach_SelectedIndexChanged);
             // 
             // mtbDienThoai
             // 
@@ -573,7 +581,6 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.btnDong);
-            this.panel2.Controls.Add(this.btnIn);
             this.panel2.Controls.Add(this.btnLuu);
             this.panel2.Controls.Add(this.btnHuy);
             this.panel2.Controls.Add(this.btnThem);
@@ -588,7 +595,7 @@
             // 
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDong.Location = new System.Drawing.Point(703, 14);
+            this.btnDong.Location = new System.Drawing.Point(700, 14);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(162, 51);
@@ -597,23 +604,11 @@
             this.btnDong.UseVisualStyleBackColor = true;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
-            // btnIn
-            // 
-            this.btnIn.Image = ((System.Drawing.Image)(resources.GetObject("btnIn.Image")));
-            this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIn.Location = new System.Drawing.Point(534, 14);
-            this.btnIn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(162, 51);
-            this.btnIn.TabIndex = 2;
-            this.btnIn.Text = "    In hóa đơn";
-            this.btnIn.UseVisualStyleBackColor = true;
-            // 
             // btnLuu
             // 
             this.btnLuu.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.Image")));
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuu.Location = new System.Drawing.Point(366, 14);
+            this.btnLuu.Location = new System.Drawing.Point(488, 14);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(162, 51);
@@ -626,7 +621,7 @@
             // 
             this.btnHuy.Image = ((System.Drawing.Image)(resources.GetObject("btnHuy.Image")));
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(197, 14);
+            this.btnHuy.Location = new System.Drawing.Point(254, 14);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(162, 51);
@@ -648,15 +643,6 @@
             this.btnThem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // cboMaKhach
-            // 
-            this.cboMaKhach.FormattingEnabled = true;
-            this.cboMaKhach.Location = new System.Drawing.Point(639, 39);
-            this.cboMaKhach.Name = "cboMaKhach";
-            this.cboMaKhach.Size = new System.Drawing.Size(218, 28);
-            this.cboMaKhach.TabIndex = 13;
-            this.cboMaKhach.SelectedIndexChanged += new System.EventHandler(this.cboMaKhach_SelectedIndexChanged);
             // 
             // frmHoaDonBan
             // 
@@ -736,7 +722,6 @@
         private System.Windows.Forms.Label lblBangChu;
         private System.Windows.Forms.TextBox txtTongTien;
         private System.Windows.Forms.Button btnDong;
-        private System.Windows.Forms.Button btnIn;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.Button btnThem;

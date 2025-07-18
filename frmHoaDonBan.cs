@@ -23,7 +23,6 @@ namespace WindowsFormsApp_QuanLyBanHang
             btnThem.Enabled = true;
             btnLuu.Enabled = false;
             btnHuy.Enabled = false;
-            btnIn.Enabled = false;
             txtMaHoaDon.ReadOnly = true;
             txtTenNhanVien.ReadOnly = true;
             txtTenKhachHang.ReadOnly = true;
@@ -46,7 +45,6 @@ namespace WindowsFormsApp_QuanLyBanHang
             {
                 TaiThongTinHoaDon();
                 btnHuy.Enabled = true;
-                btnIn.Enabled = true;
             }
             dtpNgayBan.Format = DateTimePickerFormat.Custom;
             dtpNgayBan.CustomFormat = "dd/MM/yyyy";
@@ -96,7 +94,6 @@ namespace WindowsFormsApp_QuanLyBanHang
         {
             btnHuy.Enabled = false;
             btnLuu.Enabled = true;
-            btnIn.Enabled = false;
             btnThem.Enabled = false;
             ThietLapLaiGiaTri();
             txtMaHoaDon.Text = QuanLyBanHang.Class.ChucNang.TaoKhoa("HDB");
@@ -206,7 +203,6 @@ namespace WindowsFormsApp_QuanLyBanHang
             DatLaiGiaTriHang();
             btnHuy.Enabled = true;
             btnThem.Enabled = true;
-            btnIn.Enabled = true;
         }
 
         // Bổ sung reset phần hàng
@@ -320,7 +316,6 @@ namespace WindowsFormsApp_QuanLyBanHang
             TaiDuLieuDangLuoi();
             btnHuy.Enabled = true;
             btnLuu.Enabled = true;
-            btnIn.Enabled = true;
             cboMaHD.SelectedIndex = -1;
         }
 
@@ -363,7 +358,6 @@ namespace WindowsFormsApp_QuanLyBanHang
                 ThietLapLaiGiaTri();
                 TaiDuLieuDangLuoi();
                 btnHuy.Enabled = false;
-                btnIn.Enabled = false;
             }
         }
 
