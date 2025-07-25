@@ -67,7 +67,7 @@
             this.mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuThoat});
             this.mnuFile.Name = "mnuFile";
-            this.mnuFile.Size = new System.Drawing.Size(82, 32);
+            this.mnuFile.Size = new System.Drawing.Size(82, 29);
             this.mnuFile.Text = "&Tệp tin";
             // 
             // mnuThoat
@@ -87,7 +87,7 @@
             this.mnuNhanVien,
             this.mnuKhachHang});
             this.danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
-            this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(109, 32);
+            this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(109, 29);
             this.danhMụcToolStripMenuItem.Text = "&Danh mục";
             // 
             // mnuPhanLoai
@@ -127,7 +127,7 @@
             // mnuHoaDon
             // 
             this.mnuHoaDon.Name = "mnuHoaDon";
-            this.mnuHoaDon.Size = new System.Drawing.Size(98, 32);
+            this.mnuHoaDon.Size = new System.Drawing.Size(98, 29);
             this.mnuHoaDon.Text = "Hóa đơn";
             this.mnuHoaDon.Click += new System.EventHandler(this.mnuHoaDon_Click);
             // 
@@ -143,7 +143,7 @@
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Location = new System.Drawing.Point(0, 540);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 548);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
             this.statusStrip1.Size = new System.Drawing.Size(894, 22);
@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(894, 562);
+            this.ClientSize = new System.Drawing.Size(894, 570);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.statusStrip1);
